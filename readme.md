@@ -28,3 +28,16 @@ MallTix follows an integrated structure of *Venue → Screening/Event → Reserv
 * Reservation history
 * Cinema, venue, movie, and event management
 * Administrative dashboard
+
+
+ ### Group Members
+
+ * Cabanilla, Chris Angel
+ * Care, Ruffie Mare 
+ * Gastar, Sean Jared
+ * Obguia, Earl Lawrence
+
+
+ ### Course
+
+ * CCE106L - Applications Development and Emerging Technologies (3630)
