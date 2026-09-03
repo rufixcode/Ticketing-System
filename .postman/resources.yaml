@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: 51c91efc-05f3-466e-862d-a293eb9428fe
+
+cloudResources:
+  collections:
+    ../postman/collections/MallTix Users API: b868f1de-b3e7-4caa-b2da-61819befc04b
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

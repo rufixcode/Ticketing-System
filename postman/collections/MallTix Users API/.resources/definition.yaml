@@ -1,0 +1,6 @@
+$kind: collection
+name: MallTix Users API
+description: ""
+variables:
+  base_url: http://127.0.0.1:8000/api
+  user_id: "1"

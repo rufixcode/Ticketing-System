@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{base_url}}/users/{{user_id}}"
+method: PATCH
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Partially Updated User"
+    }
+order: 5000
