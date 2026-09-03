@@ -1,0 +1,24 @@
+$kind: http-request
+url: "{{base_url}}/users"
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Postman User",
+      "email": "postman.user@example.com",
+      "password": "password123",
+      "password_confirmation": "password123"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      const json = pm.response.json();
+      if (json.data && json.data.id) {
+        pm.collectionVariables.set('user_id', String(json.data.id));
+      }
+    language: text/javascript
+order: 3000

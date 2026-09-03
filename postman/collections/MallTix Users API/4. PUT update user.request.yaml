@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{base_url}}/users/{{user_id}}"
+method: PUT
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Updated Postman User",
+      "email": "updated.postman.user@example.com",
+      "password": "password123",
+      "password_confirmation": "password123"
+    }
+order: 4000
